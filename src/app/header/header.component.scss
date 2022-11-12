@@ -1,3 +1,16 @@
-header {
-    
+.tool-bar {
+    background-color: black;
+    ul {
+        color: #fff;
+        li {
+            display: inline;
+            font-size: 12px;
+            margin: auto 8px;
+            .donate {
+                font-size: 16px;
+                background: #f18d06;
+                padding: 8px 12px;;
+            }
+        }
+    }
 }

@@ -1,0 +1,29 @@
+footer {
+    background-color: #e53b51;
+    color: #fff;
+    padding-bottom: 16px;
+    h3 {
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    ul li:before {
+        content: "⟩";
+        padding-right: 12px;
+    }
+    ul li {
+        padding: 12px;
+        margin: 0px;
+        border-bottom: 1px solid;
+    }
+    .follow {
+        border: 1px solid #fff;
+        padding: 4px 8px;
+    }
+}
