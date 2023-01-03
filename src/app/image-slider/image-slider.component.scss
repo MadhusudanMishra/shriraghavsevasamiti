@@ -1,0 +1,42 @@
+.image-slider {
+    position: relative;
+    ul {
+        list-style: none;
+        li {
+            text-align: center;
+            color: white;
+            img{
+                height: 536px;   
+            }
+            .image-overlay {
+                position: absolute;
+                top: 20px;
+                left: 50px;
+                text-align: left;
+                width: 50%;
+                animation: renderElement 5s infinite;
+                .flex-button {
+                    .read-more {
+                        border: 1px solid;
+                        padding: 8px 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes renderElement {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
